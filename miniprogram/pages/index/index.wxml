@@ -1,0 +1,37 @@
+<!-- index.wxml
+<view class="container">
+
+  <!-- 用户 openid -->
+
+
+
+
+
+<!-- <view>
+<scroll-view scroll-x="true" >
+  <block wx:for="{{array}}" wx:for-item="itemName">
+  <view class='items_iamges  '> 
+    <image  class='iamges'  src='{{itemName}}'></image>
+  </view>
+  </block>
+</scroll-view>
+</view> -->
+
+
+<view class='heradr'>
+</view>
+<view class='iamges_view'>
+  <image class='images_1' src='{{iages}}'></image>
+</view>
+<view class='view_iagesgedgsd'>
+   <image class='item_iamges' src='{{itemName1}}'></image>
+     <image class='item_iamges' src='{{itemName2}}'></image>
+       <image class='item_iamges' src='{{itemName3}}'></image>
+</view>
+<view>
+  <scroll-view scroll-x="true" class="xscroll_bar">
+    <block class="menu_item " wx:for="{{array}}" wx:for-item="itemName" bindtap="tabChange" data-index="{{index}}" wx:key='ic'>
+      <image class='item_iam' src='{{itemName}}' bindtap='_da' data-index='{{index}}'></image>
+    </block>
+  </scroll-view>
+</view>

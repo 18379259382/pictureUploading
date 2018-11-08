@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/logs/logs",
+    "pages/index/index"
+   
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "iconPath": "images/icon_home.png",
+        "selectedIconPath": "images/icon_unhome.png",
+        "pagePath": "pages/logs/logs",
+        "text": "首页",
+        "selectedColor": "#007aff",
+        "color": "#C2C2C4"
+      },
+      {
+        "iconPath": "images/icon_intent_home.png",
+        "selectedIconPath": "images/icon_intent_unhome.png",
+        "pagePath": "pages/index/index",
+        "text": "相册",
+        "selectedColor": "#007aff",
+        "color": "#C2C2C4"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor": "#ff6e74",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff6e74",
+    "navigationBarTitleText": "图册",
+    "navigationBarTextStyle": "black"
+  }
+}
